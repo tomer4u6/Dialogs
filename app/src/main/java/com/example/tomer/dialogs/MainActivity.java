@@ -1,4 +1,4 @@
-//Version 1.1
+//Version 1.2
 package com.example.tomer.dialogs;
 
 import android.content.DialogInterface;

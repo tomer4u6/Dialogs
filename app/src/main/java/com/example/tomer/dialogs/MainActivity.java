@@ -1,4 +1,4 @@
-//Version 1.2
+//Version 1.3
 package com.example.tomer.dialogs;
 
 import android.content.DialogInterface;
@@ -103,7 +103,7 @@ public class MainActivity extends AppCompatActivity {
                 g = rnd.nextInt(256);
                 b = rnd.nextInt(256);
                 LL.setBackgroundColor(Color.argb(255,r,b,g));
-                ad.cancel();
+                ad.dismiss();
             }
         });
 
@@ -130,7 +130,7 @@ public class MainActivity extends AppCompatActivity {
                 g = rnd.nextInt(256);
                 b = rnd.nextInt(256);
                 LL.setBackgroundColor(Color.argb(255,r,b,g));
-                ad.cancel();
+                ad.dismiss();
             }
         });
 
@@ -138,7 +138,7 @@ public class MainActivity extends AppCompatActivity {
             @Override
             public void onClick(DialogInterface dialogInterface, int i) {
                 LL.setBackgroundColor(Color.WHITE);
-                ad.cancel();
+                ad.dismiss();
             }
         });
 
